@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Troubleshooting Data Partnership — UI Wireframes</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #F5F4F0; color: #1a1a1a; padding: 40px 20px; }
+  .page-title { font-size: 22px; font-weight: 500; margin-bottom: 6px; }
+  .page-sub { font-size: 14px; color: #666; margin-bottom: 40px; }
+  .section { margin-bottom: 48px; }
+  .section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #888; margin-bottom: 16px; }
+  .phone-frame { background: #fff; border-radius: 16px; border: 0.5px solid #ddd; max-width: 400px; margin: 0 auto; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .phone-header { padding: 14px 18px; border-bottom: 0.5px solid #eee; display: flex; align-items: center; gap: 10px; }
+  .avatar { width: 28px; height: 28px; border-radius: 50%; background: #E6F1FB; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #185FA5; font-weight: 600; flex-shrink: 0; }
+  .header-name { font-size: 14px; font-weight: 500; }
+  .phone-body { padding: 18px; }
+  .ai-bubble { background: #F5F4F0; border-radius: 10px; padding: 12px 14px; font-size: 14px; line-height: 1.6; margin-bottom: 14px; }
+  .card { border: 0.5px solid #ddd; border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; }
+  .card-icon { width: 30px; height: 30px; border-radius: 8px; background: #E6F1FB; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .card-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+  .card-title { font-size: 14px; font-weight: 500; margin-bottom: 3px; }
+  .card-desc { font-size: 13px; color: #666; line-height: 1.5; }
+  .btn-row { display: flex; gap: 8px; }
+  .btn-primary { flex: 1; padding: 9px; font-size: 13px; border-radius: 8px; cursor: pointer; background: #185FA5; color: white; border: none; font-weight: 500; }
+  .btn-secondary { flex: 1; padding: 9px; font-size: 13px; border-radius: 8px; cursor: pointer; background: #fff; color: #333; border: 0.5px solid #ccc; }
+  .disclaimer { font-size: 12px; color: #aaa; text-align: center; margin-top: 10px; }
+  .field { border: 0.5px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 8px; }
+  .field-label { padding: 7px 12px; background: #F5F4F0; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #888; border-bottom: 0.5px solid #eee; }
+  .field-value { padding: 10px 12px; font-size: 13px; line-height: 1.5; }
+  .field-value textarea { width: 100%; border: none; font-size: 13px; font-family: inherit; resize: vertical; min-height: 68px; background: transparent; outline: none; padding: 0; color: #1a1a1a; }
+  .outcome-dot { width: 8px; height: 8px; border-radius: 50%; background: #E24B4A; flex-shrink: 0; }
+  .outcome-row { display: flex; align-items: center; gap: 8px; }
+  .success-banner { border: 0.5px solid #5DCAA5; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; gap: 8px; background: #E1F5EE; margin-top: 12px; }
+  .success-text { font-size: 12px; color: #085041; font-weight: 500; }
+  .section-intro { font-size: 13px; color: #666; margin-bottom: 14px; line-height: 1.6; }
+  .external-icon { flex-shrink: 0; margin-left: 12px; }
+  .ticket-card { border: 0.5px solid #ddd; border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; }
+  .ticket-title { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+  .ticket-sub { font-size: 12px; color: #888; margin-bottom: 12px; }
+  .ticket-top { display: flex; align-items: flex-start; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<div class="page-title">AI Troubleshooting Data Partnership</div>
+<div class="page-sub">UI Wireframes — Phases 0 through 3 · Chris Chomka · 2026</div>
+
+<div class="section">
+  <div class="section-label">Wireframe 1 — Phase 0: the opt-in prompt (dead end moment)</div>
+  <div class="phone-frame">
+    <div class="phone-header">
+      <div class="avatar">AI</div>
+      <span class="header-name">Claude</span>
+    </div>
+    <div class="phone-body">
+      <div class="ai-bubble">
+        It looks like we weren't able to fully resolve this issue with your Samsung Galaxy keyboard settings. This is a known limitation — the dictionary reset feature was removed in the Android 13 update and hasn't been replaced.
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM7 11V7h2v4H7zm0-6V3h2v2H7z" fill="#185FA5"/></svg>
+          </div>
+          <div>
+            <div class="card-title">Help Samsung fix this</div>
+            <div class="card-desc">Would you be willing to anonymously share a summary of this issue? No personal information is included — just the problem description and steps we tried.</div>
+          </div>
+        </div>
+        <div class="btn-row">
+          <button class="btn-primary">Yes, share anonymously</button>
+          <button class="btn-secondary">No thanks</button>
+        </div>
+      </div>
+      <div class="disclaimer">Your name and account are never shared. Ever.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Wireframe 2 — Phase 1: the summary review screen</div>
+  <div class="phone-frame">
+    <div class="phone-header">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink:0"><path d="M2 4h12v1H2V4zm0 3.5h12v1H2v-1zm0 3.5h8v1H2v-1z" fill="#185FA5"/></svg>
+      <span class="header-name">Review your anonymous report</span>
+    </div>
+    <div class="phone-body">
+      <div class="section-intro">Edit or remove anything before sending. None of this includes your name or account.</div>
+      <div class="field">
+        <div class="field-label">Product</div>
+        <div class="field-value">Samsung Galaxy S24 — One UI 6.1 / Android 14</div>
+      </div>
+      <div class="field">
+        <div class="field-label">Issue</div>
+        <div class="field-value">
+          <textarea>Unable to remove an incorrectly learned word from the Samsung keyboard dictionary. No option exists in Settings > General Management > Samsung Keyboard > Reset settings to selectively remove words.</textarea>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field-label">Steps tried</div>
+        <div class="field-value">Settings > General Management > Samsung Keyboard > Reset settings (resets all, not individual words) · Third-party keyboard dictionary apps — no access to Samsung keyboard data · Contacted Samsung support — confirmed feature removed in Android 13</div>
+      </div>
+      <div class="field">
+        <div class="field-label">Outcome</div>
+        <div class="field-value">
+          <div class="outcome-row">
+            <div class="outcome-dot"></div>
+            <span>Unresolved — feature no longer exists</span>
+          </div>
+        </div>
+      </div>
+      <div class="btn-row" style="margin-top: 16px;">
+        <button class="btn-primary">Send to Samsung</button>
+        <button class="btn-secondary" style="flex: 0; padding: 9px 16px;">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Wireframe 3 — Phase 2: escalated ticket handoff offer</div>
+  <div class="phone-frame">
+    <div class="phone-header">
+      <div class="avatar">AI</div>
+      <span class="header-name">Claude</span>
+    </div>
+    <div class="phone-body">
+      <div class="ai-bubble">
+        Your feedback has been sent to Samsung anonymously. If you'd like to open a support ticket with them directly — with everything we discussed already included — here's a link. You'll log in on Samsung's site. We won't see any of that.
+      </div>
+      <div class="ticket-card">
+        <div class="ticket-top">
+          <div>
+            <div class="ticket-title">Open a Samsung support ticket</div>
+            <div class="ticket-sub">Your troubleshooting summary will be pre-filled. You log in there — we don't see it.</div>
+          </div>
+          <svg class="external-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M11 3h6v6l-2-2-5 5-1.5-1.5 5-5L11 3zM4 5h5v2H6v9h9v-3h2v5H4V5z" fill="#185FA5"/></svg>
+        </div>
+        <button class="btn-primary" style="width: 100%;">Go to Samsung support →</button>
+      </div>
+      <div class="disclaimer">Samsung receives your ticket context. Your identity stays yours.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">Wireframe 4 — Phase 3: resolution with manufacturer attribution</div>
+  <div class="phone-frame">
+    <div class="phone-header">
+      <div class="avatar">AI</div>
+      <span class="header-name">Claude</span>
+    </div>
+    <div class="phone-body">
+      <div class="ai-bubble">
+        Good news — Samsung released a fix for this in the One UI 6.1.1 update. Go to Settings > Software Update and install the latest version. After updating, you'll find the individual word removal option under Samsung Keyboard > Learned Words.
+      </div>
+      <div class="success-banner">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM6.5 11L3 7.5l1-1 2.5 2.5 5-5 1 1L6.5 11z" fill="#0F6E56"/></svg>
+        <span class="success-text">Solution provided by Samsung</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
