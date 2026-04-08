@@ -289,7 +289,7 @@ Chris Chomka is a Business Systems & Operations professional with 8+ years of cr
 He developed this idea independently, across several AI platforms, mostly on commutes.
 
 *www.linkedin.com/in/chris-c-ops*  
-*chriskchomka@gmailcom*
+*chriskchomka@gmail.com*
 
 ---
 
