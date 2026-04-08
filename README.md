@@ -263,7 +263,7 @@ None of this is AI research. None of it requires solving unsolved problems. It i
 
 ## UI Wireframes
 
-Visual wireframes for all four phases are available in [`wireframes.html`](./wireframes.html) — open in any browser.
+Visual wireframes for all four phases are available in [`wireframes.html`](https://cchomka.github.io/AI-Troubleshooting-Data-Partnership/wireframes.html) — open in any browser.
 
 - **Wireframe 1** — Phase 0: The opt-in prompt at the dead-end moment
 - **Wireframe 2** — Phase 1: The summary review screen (editable before sending)
