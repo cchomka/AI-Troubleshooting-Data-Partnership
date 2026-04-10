@@ -79,7 +79,7 @@ Phase 0 is also the ethical foundation of the entire model. You are not assuming
 
 At the end of a troubleshooting event — especially a dead end where no fix was found — the AI surfaces a simple, non-intrusive prompt:
 
-> *"It looks like we weren't able to fully resolve this, we can keep going, but would you like to anonymously share a summary of this issue with Samsung? Your information stays private — only the problem description gets sent."*
+> *"It looks like we weren't able to fully resolve this. We can keep going, but would you like to anonymously share a summary of this issue with Samsung? Your information stays private — only the problem description gets sent."*
 
 This moment is critical. The user is at **peak motivation to share**. They just spent time trying to fix something, it didn't work, and they have a specific, documented frustration. This is the exact moment they would post a review, complain on Reddit, or just silently decide to switch brands. Redirecting that energy into a structured, anonymous report is the highest-value thing the AI can do at this moment — for the user, for the manufacturer, and for the AI platform.
 
@@ -126,7 +126,7 @@ The user clicking "share" is not doing the manufacturer a favor out of goodwill.
 
 ### The Problem With Phase 1 Alone
 
-Phase 1 gives manufacturers signal. It does not give them resolution. The user may still has a broken product. The manufacturer still has a customer who might churn. There is an obvious next step that neither party has a clean way to take.
+Phase 1 gives manufacturers signal. It does not give them resolution. The user may still have a broken product. The manufacturer still has a customer who might churn. There is an obvious next step that neither party has a clean way to take.
 
 Phase 2 is that next step.
 
@@ -136,7 +136,7 @@ When a troubleshooting session ends without resolution and the user has opted in
 
 > *"We've shared your feedback with Samsung. We can keep troubleshooting here, or, if you'd like to open a support ticket with them directly — with all of this context already included — here's a link."*
 
-The link contains a **backend parameter** — an encrypted token carrying the full troubleshooting context: the issue description, the steps attempted, the outcome, and any relevant device/software state. No user identity is attached to this parameter. It is pure problem context.
+The link contains a **backend parameter** — an encrypted token carrying the full troubleshooting context: the issue description, the steps attempted, the outcome, and any relevant device/software state. No user identity is attached to this parameter. It is pure problem and attempted solution context.
 
 The user clicks the link and lands on **Samsung's own support infrastructure** — their login screen, a pre-filled custom support form, their system. The user identifies themselves there, on Samsung's platform, under Samsung's privacy policy. The AI company never touched PII. The manufacturer never received user identity from the AI company.
 
@@ -153,6 +153,7 @@ When the user logs in, the pre-populated ticket is waiting for them. All the det
 **For the manufacturer:**
 - A customer arriving calm, with a pre-triaged ticket
 - Support rep time spent on resolution instead of triage
+- Possible resolution prepared due to repeated know issues identified before the customer reaches support
 - Measurable reduction in handle time and re-contact rate
 - A customer who chose to engage rather than churn silently
 
